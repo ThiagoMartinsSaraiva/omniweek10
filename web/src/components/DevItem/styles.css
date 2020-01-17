@@ -1,3 +1,17 @@
+.remove-button {
+  background-color: #d13;
+  height: 30px;
+  width: 30px;
+  border: none;
+  color: white;
+  float: right;
+  transition: background-color .4s;
+}
+
+.remove-button:hover {
+  background-color: #c00;
+}
+
 li.dev-item {
   background-color: #fff;
   box-shadow: 0 0 14px 0 rgba(0, 0, 0, .02);
